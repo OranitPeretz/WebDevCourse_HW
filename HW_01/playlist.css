@@ -32,3 +32,16 @@ img {
     width: 120px;
     border-radius: 5px;
 }
+
+.main-title {
+    background-color: #0078d7; 
+    color: white;             
+    border: 2px solid black;  
+}
+
+.highlight-row {
+    background-color: #d4e8ff;
+    font-size: 25px;
+    font-weight: bold;
+    color: #003366;
+}
