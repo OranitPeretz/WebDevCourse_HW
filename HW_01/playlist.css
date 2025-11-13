@@ -45,3 +45,15 @@ img {
     font-weight: bold;
     color: #003366;
 }
+
+.song-link {
+    color: #1a73e8;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.song-link:hover {
+    color: #003366;
+    text-decoration: underline;
+}
