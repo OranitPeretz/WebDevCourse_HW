@@ -1,4 +1,4 @@
-/* עיצוב כללי */
+
 body {
     font-family: "Segoe UI", Arial, sans-serif;
     background: linear-gradient(135deg, #e8f1ff, #ffffff);
@@ -6,25 +6,25 @@ body {
     padding: 40px 0;
 }
 
-/* טבלה — שומרת על הצורה המקורית */
+
 .contact-table {
-    width: 360px;              /* כמו בדוגמה — לא רחב מדי */
+    width: 360px;          
     margin: 0 auto;
     border-collapse: collapse;
     background: #ffffff;
-    border: 1px solid #ccc;     /* קו דק סביב כל הטבלה */
+    border: 1px solid #ccc;  
 }
 
-/* כותרת עליונה */
+
 .contact-table th {
     background: #f0f0f0;
     color: #333;
     font-size: 20px;
     padding: 10px;
-    border: 1px solid #ccc;     /* קווים דקים כמו בדוגמה */
+    border: 1px solid #ccc;    
 }
 
-/* תאים */
+
 .contact-table td {
     padding: 8px;
     border: 1px solid #ccc;
@@ -32,11 +32,11 @@ body {
     font-size: 14px;
 }
 
-/* תיבת טקסט — MUST FIX: width לפי התא, לא חורג */
+
 .contact-table input[type="text"],
 .contact-table input[type="email"],
 .contact-table textarea {
-    width: 95%;                /* במקום 100% — עכשיו לא בורח מהגבול */
+    width: 95%;          
     padding: 5px;
     border: 1px solid #bbb;
     border-radius: 4px;
@@ -44,12 +44,12 @@ body {
     box-sizing: border-box;
 }
 
-/* textarea */
+
 .contact-table textarea {
-    resize: vertical;          /* מאפשר הגדלה רק למטה */
+    resize: vertical;         
 }
 
-/* כפתור */
+
 .contact-table button {
     padding: 7px 18px;
     background: #1976d2;
